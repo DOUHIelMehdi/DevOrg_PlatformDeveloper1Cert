@@ -1,0 +1,27 @@
+{
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/.sfdx": true
+  },
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#fccf90",
+    "activityBar.background": "#fccf90",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#049b5c",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#fccf90",
+    "statusBar.background": "#faba5f",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#f8a52e",
+    "statusBarItem.remoteBackground": "#faba5f",
+    "statusBarItem.remoteForeground": "#15202b",
+    "titleBar.activeBackground": "#faba5f",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#faba5f99",
+    "titleBar.inactiveForeground": "#15202b99"
+  },
+  "peacock.color": "FABA5F"
+}
