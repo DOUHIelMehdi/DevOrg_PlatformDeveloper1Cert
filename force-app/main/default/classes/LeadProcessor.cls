@@ -1,12 +1,14 @@
 public with sharing class LeadProcessor {
     public static void processNewLeads(List<Lead> newLeads) {
         List<Lead> leadToUpdate = new List<Lead>();
-        for(Lead lead : leadToUpdate){
+        for(Lead lead : newLeads){
             if(lead.LeadSource == 'Web'){
-                lead.status = 'Qualified';
-                leadToUpdate.add(lead);
+                Lead updatedLead = new Lead(Id=lead.Id);
+                updatedLead.status = 'Qualified';
+                leadToUpdate.add(updatedLead);
             }
         }
-        if(!leadToUpdate.isEmpty()){update leadToUpdate;}
+        if(!leadToUpdate.isEmpty())
+            {update leadToUpdate;}
     }
 }
