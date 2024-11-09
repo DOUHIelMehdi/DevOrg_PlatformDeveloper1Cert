@@ -1,0 +1,6 @@
+this is th list of modules done :
+-Apex &.NET basics ==>09-11 
+    ** need to create 3 classes + triggers and test the asynchrnous methods (4)
+    ** make the execution
+    ** check the debug log + make some checkpoint (not done YET!!)
+-------------------------------------------------------------------------------------
