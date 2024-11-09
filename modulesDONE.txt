@@ -21,3 +21,4 @@
     -insert the list to the DB 
     -retreive the added list (SOQL querie)
         -verif is status changed or not with assertions  
+        ---NEED TO COMPLETE THE PROJECT  / CHATGPT4 conversation name = access Dev Org Web
