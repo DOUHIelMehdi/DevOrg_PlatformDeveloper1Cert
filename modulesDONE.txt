@@ -1,6 +1,23 @@
-this is th list of modules done :
--Apex &.NET basics ==>09-11 
+09-11 
+
+-Apex &.NET basics ==>done 
     ** need to create 3 classes + triggers and test the asynchrnous methods (4)
     ** make the execution
     ** check the debug log + make some checkpoint (not done YET!!)
--------------------------------------------------------------------------------------
+-           ---------------------------------------------------------------------
+-   created new custom object named Sales_target__c on SF Platform
+-   retrieve object to local project IDE
+-   create a class LeadProcessor.cls that :
+    ->initilize an empty list of Leads
+    ->after each insertion of a new lead check his Leadsource(web or !web) + change 
+        status depending on conditions
+    ->insert the list of lead to the debug
+-create a trigger Leadtrigger.trigger that :
+    -call the static method of the class LeadProcessor.cls after insert (on Leads)
+-create a test class called LeadProcessorTest.cls that:
+    -initialize empty list of Leads
+    -create 2 leads with Web and Email Leadsource
+    -add the leads to the list  
+    -insert the list to the DB 
+    -retreive the added list (SOQL querie)
+        -verif is status changed or not with assertions  
