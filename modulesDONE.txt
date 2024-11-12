@@ -1,3 +1,13 @@
+12-11
+
+-formulas && validation summary done 
+-adding the LeadManager.cls class   
+    --adding 2 helper method : removeDuplicateLeads() and qualifyLeads()
+    --need to add 2 more helper methods : assignLeads() and getSalesrepsId()
+    --need to add the asynchrnous future method
+--!ADD TEST UNIT 
+
+*********************************************************************************************************
 09-11 
 
 -Apex &.NET basics ==>done 
@@ -22,3 +32,5 @@
     -retreive the added list (SOQL querie)
         -verif is status changed or not with assertions  
         ---NEED TO COMPLETE THE PROJECT  / CHATGPT4 conversation name = access Dev Org Web
+
+*********************************************************************************************************
