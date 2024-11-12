@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Company_Size_Integer_Only</fullName>
+    <active>true</active>
+    <description>the input number must be an integer values without ,</description>
+    <errorConditionFormula>OR(
+
+ Company_Size__c &lt;=0,
+ MOD(Company_Size__c,1)&lt;&gt;0,
+ ISBLANK( TEXT(Company_Size__c) ) 
+)</errorConditionFormula>
+    <errorMessage>company size should not be negative , not empty , and not decimal number</errorMessage>
+</ValidationRule>
