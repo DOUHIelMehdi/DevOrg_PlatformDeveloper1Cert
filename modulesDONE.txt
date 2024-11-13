@@ -1,11 +1,15 @@
 12-11
 
--formulas && validation summary done 
+-formulas && validation module summary done
+-data modeling module summary done  
 -adding the LeadManager.cls class   
     --adding 2 helper method : removeDuplicateLeads() and qualifyLeads()
     --need to add 2 more helper methods : assignLeads() and getSalesrepsId()
     --need to add the asynchrnous future method
 --!ADD TEST UNIT 
+-- apply what you learned in the project from the both modules !!!!
+
+
 
 *********************************************************************************************************
 09-11 
